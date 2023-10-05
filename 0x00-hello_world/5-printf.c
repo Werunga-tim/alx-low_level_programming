@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- *main: is thr main function
+ *main - the main function for the program below
  *printf formats and prints data
  *Return: returns value 0
 */
