@@ -2,7 +2,7 @@
 
 
 /**
- * main- main function 
+ * main- function prints all possible combinations of single-digit numbers
  *
  * Return: Always 0.
  *
