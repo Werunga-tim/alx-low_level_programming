@@ -1,17 +1,19 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- *main - function
- *
- *Return: retunrs zero always.
+ * main - Entry point
+ * Return: Always 0 (success)
  */
 
-int main(void) 
+int main(void)
 {
-	int i;
+	int a;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-	printf("\n");
+	for (a = 0; a < 10; a++)
+	{
+		putchar(a + '0');
+	}
+	putchar('\n');
 	return (0);
 }
