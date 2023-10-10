@@ -1,19 +1,17 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
- * main - main fuunction for the program
- * 
- * Return: Always returns 0
+ *main - function
+ *
+ *Return: retunrs zero always.
  */
 
-int main(void)
+int main(void) 
 {
-	int a;
+	int i;
 
-	for (a = 0; a < 10; a++)
-	{
-		putchar(a + '0');
-	}
-	putchar('\n');
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+	printf("\n");
 	return (0);
 }
