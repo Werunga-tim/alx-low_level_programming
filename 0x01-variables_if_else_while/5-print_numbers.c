@@ -1,23 +1,19 @@
- #include <stdio.h>
-
+#include <stdio.h>
+#include <unistd.h>
 /**
- * main  main function that prints the alphabet in lowercase and upper case
- *
- * Return: Always returns 0.
+ * main - main fuunction for the program
+ * 
+ * Return: Always returns 0
  */
 
 int main(void)
 {
-	char letter;
+	int a;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-
+	for (a = 0; a < 10; a++)
 	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
+		putchar(a + '0');
 	}
-
 	putchar('\n');
-
 	return (0);
 }
