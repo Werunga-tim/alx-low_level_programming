@@ -8,17 +8,17 @@
 
 int main(void)
 {
-	long long first = 1;
-	long long second = 2;
-	long long next;
+	long first = 1;
+	long second = 2;
+	long next;
 	int count;
 
-	printf("%lld, %lld", first, second);
+	printf("%ld, %ld", first, second);
 
 	for (count = 2; count < 50; count++)
 	{
 		next = first + second;
-		printf(", %lld", next);
+		printf(", %ld", next);
 		first = second;
 		second = next;
 	}
