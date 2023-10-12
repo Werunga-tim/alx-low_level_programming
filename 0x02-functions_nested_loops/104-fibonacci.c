@@ -19,7 +19,7 @@ int main(void)
 		second = next;
 		count++;
 	}
-	printf("%lu, %lu\n", first, second);
+	printf("%lu, %lu", first, second);
 
 	return (0);
 }
