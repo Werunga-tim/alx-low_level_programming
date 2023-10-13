@@ -14,13 +14,14 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		int x;
-		int y;
+		int x, y;
 
 		for (x = 1; x <= n; x++)
 		{
 			for (y = 0; y <= x; y++)
+			{
 				_putchar(' ');
+			}
 			_putchar('\\');
 			_putchar('\n');
 		}
